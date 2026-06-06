@@ -1,0 +1,18 @@
+{
+  "name": "flight-alert",
+  "main": "worker.js",
+  "compatibility_date": "2026-06-01",
+
+  // Cron: run every day at 07:00 UTC
+  "triggers": {
+    "crons": ["0 7 */3 * *"]
+  },
+
+  "vars": {
+    "EMAIL_FROM": "andreas.e.ludviksen@ludviksen.work"
+  },
+
+  "observability": {
+    "enabled": true
+  }
+}
