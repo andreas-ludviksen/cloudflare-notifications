@@ -10,7 +10,7 @@
 
 // ── Departure airports ────────────────────────────────────────────────────────
 
-const DEPARTURE_AIRPORTS = ["TRF", "OSL"];
+const DEPARTURE_AIRPORTS = ["OSL"];
 
 // ── Passengers ────────────────────────────────────────────────────────────────
 // Google Flights passengers: adults, children (2-11), infants_in_seat
@@ -35,35 +35,35 @@ const DESTINATIONS = [
   {
     iata: "SJO",
     name: "San José, Costa Rica",
-    thresholdNOK: 45000,
+    thresholdNOK: 50000,
     departureWindow: { earliest: "2026-12-27", latest: "2026-12-29" },
     returnWindow:    { earliest: "2027-01-16", latest: "2027-01-18" },
   },
   {
     iata: "LIR",
     name: "Liberia, Costa Rica",
-    thresholdNOK: 45000,
+    thresholdNOK: 50000,
     departureWindow: { earliest: "2026-12-27", latest: "2026-12-29" },
     returnWindow:    { earliest: "2027-01-16", latest: "2027-01-18" },
   },
   {
     iata: "DPS",
     name: "Bali, Indonesia",
-    thresholdNOK: 45000,
+    thresholdNOK: 50000,
     departureWindow: { earliest: "2026-12-27", latest: "2026-12-29" },
     returnWindow:    { earliest: "2027-01-16", latest: "2027-01-18" },
   },
   {
     iata: "JKT",
     name: "Jakarta, Indonesia",
-    thresholdNOK: 42000,
+    thresholdNOK: 50000,
     departureWindow: { earliest: "2026-12-27", latest: "2026-12-29" },
     returnWindow:    { earliest: "2027-01-16", latest: "2027-01-18" },
   },
   {
     iata: "MNL",
     name: "Manila, Filippinene",
-    thresholdNOK: 45000,
+    thresholdNOK: 50000,
     departureWindow: { earliest: "2026-12-27", latest: "2026-12-29" },
     returnWindow:    { earliest: "2027-01-16", latest: "2027-01-18" },
   },

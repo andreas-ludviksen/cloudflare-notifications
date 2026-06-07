@@ -1,7 +1,8 @@
 {
   "permissions": {
     "allow": [
-      "Bash(wrangler whoami:*)"
+      "Bash(wrangler whoami:*)",
+      "Bash(cd:*)"
     ]
   }
 }

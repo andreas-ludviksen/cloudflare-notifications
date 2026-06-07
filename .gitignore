@@ -1,0 +1,9 @@
+# Wrangler
+.wrangler/
+wrangler.log
+
+# Local secrets — never commit these
+.dev.vars
+
+# Node
+node_modules/
